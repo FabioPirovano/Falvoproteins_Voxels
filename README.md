@@ -4,7 +4,7 @@ This repository contains the script and data used for "Automatic features extrac
 
 ## Flavoprotein Datset
 
-> The Flavoproteins Dataset is available at `dataset.xlsx`, at sheet 'Foglio_backup' 
+> The Flavoproteins Dataset is available at `dataset.xlsx`, at sheet 'Foglio_backup'. 
 For each flavoprotein used in this work we report:
 
 ```
