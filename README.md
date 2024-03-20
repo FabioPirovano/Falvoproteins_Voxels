@@ -1,4 +1,4 @@
-# Prediction Flavoproteins EM using Voxels
+# Prediction Flavoproteins Em using Voxels
 
 This repository contains the script and data used for "Automatic features extraction from PDB files for flavoproteins redox potential prediction models"
 
@@ -16,6 +16,19 @@ For each flavoprotein used in this work we report:
 - Cofactor (if cofactor is FMN = 1, if cofactor is FAD = 0)
 - Reference of the experimental work
 ```
+
+<br/>
+
+## Voxels
+
+In the work in question, we used Voxels to go and extract flavoprotein-related features.
+
+
+> Voxels (volumetric picture elements) are the three-dimensional equivalent of pixels.
+  PyUUL was used to generate the Voxels from the PDB files.
+> PyUUL is a Python library designed to process 3D-structures of macromolecules, such as PDBs, 
+translating them into fully differentiable data structures. 
+
 
 <br/>
 
