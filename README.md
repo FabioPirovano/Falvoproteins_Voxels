@@ -23,23 +23,25 @@ For each flavoprotein used in this work we report:
 
 > All PDB files contained in the Dataset have been downloaded and loaded into PyMOL:
 
+
 - *1° Step*: All PDB files have been aligned based on cofactor (FMN or FAD);
-- *2° Step*: Spherical cuts were made, with the center in the cofactor, of different radius (10,6..);
+- *2° Step*: Spherical cuts were made, with the center in the cofactor, of different radius (10, 12, 14 and 16 Å);
 - *3° Step*: The cut PDB files were downloaded and saved separately, based on the cut radius;
 
 <br/>
-> In the folders
+
+In the 'CUT_N_SFERA' folders you will find the processed PDB files, with 'N' having the value 10, 12, 14 and 16 Å.
 
 
 
-## codes
+## Codes
 
 > All the scripts used to reproduce the work are here reported:
 
 - *PREDICTION.py*: scripts for the ML pipeline used to test the performance of the ML models considered;
-- *PREPROCESS.py*: features extraction of the flavoprotein PDB files reported in 'Foglio_backup' of dataset.xlsx using PyUUL (Voxels);
+- *PREPROCESS.py*: scripts for features extraction of the flavoprotein PDB files reported in 'Foglio_backup' of dataset.xlsx using PyUUL (Voxels);
+- *ANALYSIS.ipynb*: scripts for the results analysis;
 - *ML_models.py*: contains all the machine learning models hparams;
-- *ANALYSIS.ipynb*:  scripts for the results analysis;
 
 <br/>
 
